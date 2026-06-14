@@ -10,7 +10,7 @@ shopping_cart = []
 
 for _ in range(5):
     item = input('Enter item: ')
-    shopping_cart.append(item)
+    shopping_cart.append(item.lower())
     
 print(f'Total no. items: {len(shopping_cart)}')
 
